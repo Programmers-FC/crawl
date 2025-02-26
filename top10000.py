@@ -82,7 +82,7 @@ def crawl_page():
 all_data = []
 
 current_page = 1
-end_page = 11
+end_page = 500
 
 while current_page <= end_page:
     print(f"{current_page} 페이지 크롤링 중...")
